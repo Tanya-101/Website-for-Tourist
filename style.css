@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-size: 2 rem;
+    font-weight: 600;
+}
+
+/* .hero{
+    background-image: url('delhi.webp');
+    background-size: 100% 100%;
+    /* filter: blur(8px); */
+    /* z-index: 1;
+     */
+
+
+body {
+    background-color: rgb(250, 227, 197);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    text-align: end;
+    background-color: #370617;
+}
+
+li,.pp{
+    display: inline-block;
+    padding: 20px;
+    color:#e07a5f;
+    cursor: pointer;
+}
+
+a:hover{
+    color: white;
+    font-family: fantasy;
+}
+
+h3,h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    color: #370617;
+}
+
+main{
+    margin: 50px;
+    padding: 30px;
+}
+
+img{
+    width:150px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

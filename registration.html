@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Hotel Booking</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(250, 227, 197);
+        }
+        h3{
+            color:purple;
+        }
+        h4{
+            color:red;
+        }
+        td{
+            padding: 10px 30px 10px;
+        }
+        .title{
+            font-family:fantasy;
+            font-size:2.0rem;
+            color:#800f2f;
+            letter-spacing: 2px;
+        }
+        a {
+            text-decoration: none;
+        }
+
+
+        ul {
+            text-align: end;
+            background-color: #370617;
+        }
+
+        li,
+        .pp {
+            display: inline-block;
+            padding: 20px;
+            color: #e07a5f;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: white;
+            font-family: fantasy;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="A2Q1.html" class="pp">Home</a></li>
+        <li><a href="heritage.html" class="pp"> Heritage</a></li>
+        <li><a href="registration.html" class="pp">Hotel Booking</a> </li>
+        <li><a href="gallery.html" class="pp">Gallery</a></li>
+    </ul><br><br>
+    <header>
+    <h3 align="center" class="title">HOTEL BOOKING</h3>
+    </header>
+    <form action="">
+    <fieldset>
+        <legend style="color:red;font-weight:bold;">Basic Information</legend>
+        <table>
+            <tr>
+                <td>
+                    <label  for="fn"><b> First Name</b></label>
+                </td>
+                <td>
+                    :<input id="fn" type="text" width="50px">
+                </td>
+                <td>
+                    <label for="mn"><b> Middle Name</b></label>
+                    :<input id="mn" type="text" width="50px">
+                </td>
+                <td>
+                    <label for="ln"><b> Last Name</b></label>
+                    :<input id="ln" type="text" width="50px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label  for="rn"><b> Roll No.</b></label>
+                </td>
+                <td>
+                    :<input id="rn" type="number" width="50px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label  for="en"><b> Email ID</b></label>
+                </td>
+                <td>
+                    :<input id="en" type="email" width="50px">
+                </td>                
+            </tr>
+            <tr>
+                <td>
+                    <label  for="pn"><b> Phone No.</b></label>
+                </td>
+                <td>
+                    :<input id="pn" type="tel" width="50px">
+                </td>                  
+            </tr>
+            <tr>
+                <td>
+                    <label  for="pn"><b> User ID</b></label>
+                </td>
+                <td>
+                    :<input id="pn" type="text" width="50px">
+                </td>                      
+            </tr>
+            <tr>
+                <td>
+                    <label  for="rp"><b> Reset Password</b></label>
+                </td>
+                <td>
+                    :<input id="rp" type="password" width="50px">
+                </td>  
+            </tr>
+            <tr>
+                <td>
+                    <label  for="rp"><b> Re-Enter Password</b></label>
+                </td>
+                <td>
+                    :<input id="rp" type="password" width="50px">
+                </td>                
+            </tr>
+            <tr>
+                <td>
+                    <label  for="branch"><b> Branch</b></label>
+                </td>
+                <td>
+                    :<select value="branch">
+                        <option name="branch" id="cse" value="CSE">CSE</option>
+                        <option name="branch" id="civil">CIVIL</option>
+                        <option name="branch" id="mechanical">MECHANICAL</option>
+                        <option name="branch" id="metallurgy">METALLURGY</option>
+                        <option name="branch" id="electrical">ELECTRICAL</option>
+                    </select>
+                </td>                 
+            </tr>
+            <tr>
+                <td>
+                    <label  for="year"><b> Year of studying</b></label>
+                </td>
+                <td>
+                    :<select value="branch">
+                        <option name="branch" id="first" value="first">First</option>
+                        <option name="branch" id="second">Second</option>
+                        <option name="branch" id="third">Third</option>
+                    </select>
+                </td>                   
+            </tr>
+            <tr>
+                <td>
+                    <label  for="year"><b>Upload Photo</b></label>
+                </td> 
+                <td>
+                    : <input type="file">
+                </td>               
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend style="color:red;font-weight:bold;">Personal Details</legend>
+        <table>
+        <tr>
+            <td>
+                <label  for="ft"><b>Father Name</b></label>
+            </td>  
+            <td>
+                :<input id="ft" type="text" width="50px">
+            </td>          
+        
+            <td>
+                <label  for="ft"><b>Contact Number</b></label>
+            </td>  
+            <td>
+                :<input id="ft" type="number" width="50px">
+            </td>          
+        </tr>        
+
+        <tr>
+            <td>
+                <label  for="mt"><b>Mother Name</b></label>
+            </td>  
+            <td>
+                :<input id="mt" type="text" width="50px">
+            </td>                
+        </tr>
+        <tr>
+            <td>
+                <label  for="dob"><b>Date Of Birth</b></label>
+            </td>  
+            <td>
+                :<input id="dob" type="date" width="50px">
+            </td>                
+        </tr>
+        <tr>
+            <td>
+                <label  for="an"><b>Aadhar No.</b></label>
+            </td>  
+            <td>
+                :<input id="an" type="number" width="50px">
+            </td>                
+        </tr>
+    </table>
+    </fieldset>
+    
+    <fieldset>
+        <legend style="color:red;font-weight:bold;">Address</legend>
+        <table>
+        <tr>
+            <td>
+        <label for="add">Address1 : </label>
+    </td>
+    <td>
+        <textarea name="address" id="add" cols="40" rows="10"></textarea>
+    </td>
+    </tr>
+    <tr>
+        <td>
+        <label for="add">Address1 : </label>
+    </td>
+    <td>
+        <textarea name="address" id="add" cols="40" rows="10"></textarea>
+    </td>
+    </tr>
+        </table>
+    </fieldset>
+
+</form>
+
+</body>
+</html>
